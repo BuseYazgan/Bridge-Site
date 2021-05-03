@@ -1,0 +1,146 @@
+@media screen and (max-width: 600px) {
+    
+    body{
+        width:fit-content;
+    }
+
+    .logo{
+        width: 250px;
+        padding:5px 25px;
+    }
+
+    .header{
+       position: static;
+       background-color:#3c1c7b;
+       display: flex;
+       flex-direction: column;
+    }
+
+    .side{
+        display: block;
+        margin-top: 25px;
+        position: absolute;
+        left: 0;
+    }
+    
+    .first-part{
+        display: flex;
+        margin-left: 0px;
+    }
+    
+    .sec-part .nav-right{
+        display:none;
+    }
+
+    .first-sec, .second-sec, .third-sec, .fourth-sec{
+        width:fit-content;
+        background-size: cover;
+        height: 400px;
+    }   
+
+    .section-1,.section-3{
+       padding:20px 80px;
+       height: 200px;
+       align-items: center;
+    }
+
+    .section-2,.section-4{
+        padding:50px 50px;
+        height: 200px;
+        margin-top:5px;
+        width: auto;
+    }
+
+    h3{
+    font-size: 30px;
+    font-weight:500;
+    margin-top: 5px;
+    }
+    
+    button{
+        font-size:14px;
+        font-weight: bold;
+        padding:15px 35px;
+    }
+   
+    .section-1 img, .section-3 img {
+        width: 220px;
+        margin-bottom: 5px;
+        margin-top: 20px;
+      }
+
+    .section-2 img{
+        width: 220px;
+        margin-top: 50px;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height:400px;
+        padding-right: 20px;
+    }
+
+    .footer-left,.footer-center{
+        padding-right: 50px;
+    }
+
+    .footer-menu{
+        text-align: center;
+    }
+    
+    .footer-menu li{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+    
+    .footer-menu a{
+        font-size: 10px;
+    }
+
+    .footer img{
+        padding-top:20px;
+        width: 220px;
+    }
+    
+    .footer-left{
+        margin-left:30px;
+    }
+    
+    .footer-right{
+        font-size: 10px;
+        flex-direction: column;
+        margin-bottom:10px;
+        align-items: center;
+    }
+    .footer-right .fa{
+        margin-top:20px;
+        font-size: 15px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 600px){
+
+    .header.responsive .sec-part{
+        width: 100%;
+    }
+
+    .header.responsive .nav-right{
+        display: flex;
+        flex-direction: column;
+        left:0;
+    }
+
+    .header.responsive .nav-right li{
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+
+    .header.responsive .nav-right a{    
+        font-size: 16px;
+    }
+}
